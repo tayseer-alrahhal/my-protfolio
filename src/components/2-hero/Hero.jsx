@@ -43,7 +43,7 @@ export default function Hero() {
           ></a>
           <a
             target="_blank"
-            href="https://github.com/tayseer2"
+            href="https://github.com/tayseer-alrahhal"
             className="icon icon-github"
           ></a>
           <a

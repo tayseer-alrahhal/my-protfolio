@@ -10,7 +10,12 @@ section.hero .jop-title {
   -webkit-background-clip: text;
   background-clip: text;
   animation: moveBackground 20s linear infinite;
-  font-size: 2.65rem;
+}
+
+@media (max-width: 768px) {
+  section.hero .jop-title {
+    font-size: 2.6rem;
+  }
 }
 
 @keyframes moveBackground {

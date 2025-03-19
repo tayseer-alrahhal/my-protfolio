@@ -2,6 +2,26 @@ section.hero {
   margin-top: 4rem;
 }
 
+section.hero .jop-title {
+  background-image: linear-gradient(to right,
+      #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff);
+  background-size: 400% 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: moveBackground 20s linear infinite;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 400% 50%;
+  }
+}
+
 section.hero .parent-avatar.flex {
   align-items: end;
   gap: 0.7rem;
@@ -59,7 +79,7 @@ section.hero .all-icons .icon:hover {
 }
 
 @media (max-width: 1200px) {
-    .animation {
-        display: none;
-    }
+  .animation {
+    display: none;
+  }
 }

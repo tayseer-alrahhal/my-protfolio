@@ -23,7 +23,7 @@ export default function Hero() {
 
         <h1 className="title">
           Hi. I’m Tayseer.
-          <br /> A Web Developer.
+          <br /> <p className="jop-title">A Web Developer.</p>
         </h1>
         <p className="sub-title">
           I’m Tayseer, Aspiring Web Developer with a solid foundation in HTML,

@@ -54,7 +54,7 @@ export default function Hero() {
         </div>
 
         <div className="download-cv">
-          <a href="./TEYSİR-ELRAHHAL-CV.pdf" download>
+          <a href="./tayseer-alrahhal-CV.pdf" download>
             <button className="button-cv">
               <svg
                 className="saveicon"

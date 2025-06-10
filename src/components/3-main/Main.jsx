@@ -57,11 +57,27 @@ export default function Main() {
         </button>
         <button
           onClick={() => {
+            filterProjects("Next");
+          }}
+          className={currentActive === "Next" ? "active" : null}
+        >
+          next.js
+        </button>
+        <button
+          onClick={() => {
             filterProjects("React & Tailwindcss");
           }}
           className={currentActive === "React & Tailwindcss" ? "active" : null}
         >
           React & Tailwindcss
+        </button>
+        <button
+          onClick={() => {
+            filterProjects("Next & Tailwindcss");
+          }}
+          className={currentActive === "Next & Tailwindcss" ? "active" : null}
+        >
+          Next & Tailwindcss
         </button>
       </section>
 
@@ -83,8 +99,7 @@ export default function Main() {
                     {item.title}
                   </h1>
                   <p className="sub-title">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Similique reprehenderit placeat blanditiis, minima.
+                    {item.description}
                   </p>
                   <div className="flex icons">
                     <div style={{ gap: "12px" }} className="flex">

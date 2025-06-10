@@ -1,3 +1,4 @@
+
 export const myProjects = [
   {
     id: 1,
@@ -6,6 +7,7 @@ export const myProjects = [
     img: "/images/main/a.png",
     giturl: "https://github.com/tayseer2/HTML---CSS-Leon-Website",
     demo: "https://tayseer2.github.io/HTML---CSS-Leon-Website/",
+    description: "A sleek, responsive static website design built with pure HTML and CSS.",
   },
   {
     id: 2,
@@ -14,6 +16,7 @@ export const myProjects = [
     img: "/images/main/s.png",
     giturl: "https://github.com/tayseer2/HTML-And-CSS-Kasper-Website-Design",
     demo: "https://tayseer2.github.io/HTML-And-CSS-Kasper-Website-Design/",
+    description: "Modern, creative website showcasing design skills using HTML and CSS.",
   },
   {
     id: 3,
@@ -22,6 +25,7 @@ export const myProjects = [
     img: "/images/main/d.png",
     giturl: "https://github.com/tayseer2/HTML-And-CSS-Elrahhal",
     demo: "https://tayseer2.github.io/HTML-And-CSS-Elrahhal/",
+    description: "A travel-themed website, meticulously crafted with foundational HTML and CSS.",
   },
   {
     id: 4,
@@ -30,6 +34,7 @@ export const myProjects = [
     img: "/images/main/f.png",
     giturl: "https://github.com/tayseer2/HTML---CSS-Elrahal",
     demo: "https://tayseer2.github.io/HTML---CSS-Elrahal/",
+    description: "An enhanced version of the travel website, refining design and responsiveness.",
   },
   {
     id: 5,
@@ -38,6 +43,7 @@ export const myProjects = [
     img: "/images/main/g.png",
     giturl: "https://github.com/tayseer2/QR-Code-Generator",
     demo: "https://tayseer2.github.io/QR-Code-Generator/",
+    description: "Generates QR codes instantly from user input using JavaScript.",
   },
   {
     id: 6,
@@ -46,6 +52,7 @@ export const myProjects = [
     img: "/images/main/h.png",
     giturl: "https://github.com/tayseer2/stop-watch",
     demo: "https://tayseer2.github.io/stop-watch/",
+    description: "A functional stopwatch application built with precise JavaScript timing.",
   },
   {
     id: 7,
@@ -54,55 +61,51 @@ export const myProjects = [
     img: "/images/main/j.png",
     giturl: "https://github.com/tayseer2/Generate-a-Random-Password",
     demo: "https://tayseer2.github.io/Generate-a-Random-Password/",
+    description: "Creates strong, random passwords with customizable options using JavaScript.",
   },
   {
     id: 8,
-    title: "weather App",
+    title: "Weather App",
     cetegory: "JavaScript",
     img: "/images/main/k.png",
     giturl: "https://github.com/tayseer2/Weather-App",
     demo: "https://tayseer2.github.io/Weather-App/",
+    description: "Fetches and displays current weather data for any location via API.",
   },
-  // {
-  //   id: 9,
-  //   title: "tailwindcss desgin",
-  //   cetegory: "React & Tailwindcss",
-  //   img: "/images/main/l.png",
-  //   giturl: "https://github.com/tayseer2/React-Tailwindcss",
-  //   demo: "https://tailwindcss-desgin.netlify.app/",
-  // },
   {
-    id: 10,
+    id: 9,
     title: "Prayer Times",
     cetegory: "React & Tailwindcss",
     img: "/images/main/z.png",
     giturl: "https://github.com/tayseer2/prayer-times",
     demo: "https://prayer-times-v0.netlify.app/",
+    description: "Displays accurate prayer times globally, built with React and Tailwind CSS.",
   },
   {
-    id: 11,
-    title: "E-Commerce",
-    cetegory: "React & Tailwindcss",
-    img: "/images/main/x.png",
-    giturl: "https://github.com/tayseer2/Shope-v2",
-    demo: "https://shope-v2.netlify.app/",
-  },
-  {
-    id: 12,
+    id: 10,
     title: "ToDo List!",
     cetegory: "React & Tailwindcss",
     img: "/images/main/c.png",
     giturl: "https://github.com/tayseer2/ToDo-List",
     demo: "https://todo-list-020.netlify.app/",
+    description: "An interactive to-do list application for managing tasks, built with React.",
   },
   {
-    id: 13,
+    id: 11,
     title: "My Design",
     cetegory: "React & Tailwindcss",
     img: "/images/main/v.png",
     giturl: "https://github.com/tayseer2/my-design",
     demo: "https://my-design-v2.netlify.app/",
+    description: "A personal portfolio site showcasing design skills, built with React and Tailwind CSS.",
+  },
+  {
+    id: 12,
+    title: "Paint",
+    cetegory: "Next & Tailwindcss",
+    img: "/images/main/l.png",
+    giturl: "https://github.com/tayseer-alrahhal/PAINT",
+    demo: "https://paint-liard.vercel.app/",
+    description: "A simple drawing application with basic paint tools, built with Next.js.",
   },
 ];
-
-

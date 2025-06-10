@@ -63,14 +63,14 @@ export const myProjects = [
     giturl: "https://github.com/tayseer2/Weather-App",
     demo: "https://tayseer2.github.io/Weather-App/",
   },
-  {
-    id: 9,
-    title: "tailwindcss desgin",
-    cetegory: "React & Tailwindcss",
-    img: "/images/main/l.png",
-    giturl: "https://github.com/tayseer2/React-Tailwindcss",
-    demo: "https://tailwindcss-desgin.netlify.app/",
-  },
+  // {
+  //   id: 9,
+  //   title: "tailwindcss desgin",
+  //   cetegory: "React & Tailwindcss",
+  //   img: "/images/main/l.png",
+  //   giturl: "https://github.com/tayseer2/React-Tailwindcss",
+  //   demo: "https://tailwindcss-desgin.netlify.app/",
+  // },
   {
     id: 10,
     title: "Prayer Times",

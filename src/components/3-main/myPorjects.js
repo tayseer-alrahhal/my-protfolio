@@ -28,15 +28,6 @@ export const myProjects = [
     description: "A travel-themed website, meticulously crafted with foundational HTML and CSS.",
   },
   {
-    id: 4,
-    title: "Elrahhal-v2",
-    cetegory: "CSS & HTML",
-    img: "/images/main/f.png",
-    giturl: "https://github.com/tayseer2/HTML---CSS-Elrahal",
-    demo: "https://tayseer2.github.io/HTML---CSS-Elrahal/",
-    description: "An enhanced version of the travel website, refining design and responsiveness.",
-  },
-  {
     id: 5,
     title: "QR Code Generator",
     cetegory: "JavaScript",
